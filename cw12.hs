@@ -73,4 +73,3 @@ maxDepthBlueNode tree = helper tree 0
         helper (Node color lt rt) level
             | color == "Blue" = level
             | otherwise = (Node color (helper lt (level + 1)) (helper rt (level + 1)))
-
