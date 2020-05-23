@@ -193,4 +193,3 @@ filter1 p (x:xs) =
 
 incrementAllBy :: [Int] -> Int -> [Int]
 incrementAllBy xs z = map (+ z) xs
-
