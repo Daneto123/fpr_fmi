@@ -82,21 +82,6 @@ removeall z xs
 -- ideqta na map e da se priloji func na vseki element ot spisuka i zapazva duljinata na spisuka
 --def na lamda func /x = x*x , moje da go napishem direktno v printa 
 
--- classwork na druga grupa
-{-  Списъци:
-    []   - празен списък
-    x:xs - конструира списък с глава x и опашка xs
-    head (x:xs) - връща главата, т.е. x
-    tail (x:xs) - връща опашката, т.е xs
-
-    [а]     - списък от елементи от типа а
-    [[a]]   - списък от списъци с елементи от типа а
-    [[[a]]] - списък от списъци от списъци с елементи от типа а
-    [[[[a]]]] и т.н. -}
-
--- I. Примерни реализации на някои функции за работа със списъци.
--- Пишем имената с ' накрая, тъй като функциите вече съществуват и стават конфликти при повторно ползване на имената им
-
 -- проверка дали списък е празен
 null' :: [a] -> Bool
 null' [] = True
